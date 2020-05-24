@@ -1,0 +1,47 @@
+{
+  "name": "dotenv-types",
+  "version": "1.0.0",
+  "description": "A CLI for create your .env typings!",
+  "main": "./dist/index.js",
+  "bin": {
+    "dotenv-types": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx jest",
+    "prepare": "npm run build && npm run test"
+  },
+  "keywords": [
+    "CLI",
+    "types",
+    "dotenv",
+    ".env"
+  ],
+  "author": "Teodoro Villanueva",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "@types/prettier": "^2.0.1",
+    "@types/rimraf": "^3.0.0",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "pjson": "^1.0.9",
+    "prettier": "^2.0.5"
+  },
+  "homepage": "https://github.com/teovillanueva/dotenv-types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teovillanueva/dotenv-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teovillanueva/dotenv-types/issues"
+  }
+}
