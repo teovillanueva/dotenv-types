@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A CLI for create your .env typings!",
   "main": "./dist/index.js",
+  "files": ["dist/**/*"],
   "bin": {
     "dotenv-types": "./dist/index.js"
   },

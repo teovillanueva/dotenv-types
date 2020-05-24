@@ -9,7 +9,10 @@ Use the package manager [npm](https://www.npmjs.com/) to install dotenv-types.
 ```bash
 $ npm i -g dotenv-types
 ```
-
+You can also run the CLI with [npx](https://www.npmjs.com/package/npx)
+```bash
+$ npx dotenv-types
+```
 ## Usage
 
 ```bash
@@ -17,7 +20,7 @@ $ dotenv-types -h
 ```
 Outputs:
 
-```bash
+```
       _       _                       _
    __| | ___ | |_ ___ _ ____   __    | |_ _   _ _ __   ___  ___
   / _` |/ _ \| __/ _ \ '_ \ \ / /____| __| | | | '_ \ / _ \/ __|
